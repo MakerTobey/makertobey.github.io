@@ -1,8 +1,10 @@
-@article{bryngelson_2020,
-    Author        = {Spencer H. Bryngelson and Tim Colonius and Rodney O. Fox},
-    Title         = {{QBMMlib: A} library of quadrature-based moment methods},
-    Journal       = {SoftwareX},
-    Volume        = {12},
-    Pages         = {100615},
-    Year          = {2020},
+@article{Bryngelson_2020,
+	doi = {10.1016/j.softx.2020.100615},
+	year = 2020,
+	month = {jul},
+	volume = {12},
+	pages = {100615},
+	author = {Spencer H. Bryngelson and Tim Colonius and Rodney O. Fox},
+	title = {{QBMMlib}: A library of quadrature-based moment methods},
+	journal = {SoftwareX}}
 }
