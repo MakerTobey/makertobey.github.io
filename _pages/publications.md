@@ -52,8 +52,8 @@ permalink: /publications/
 </div>
 <div class="col-md-10 col-sm-12 col-xs-12">
  <strong> {{ publi.title }}</strong><br/>
- {{ publi.authors | replace_first: 'S. H. Bryngelson', '<b>S. H. Bryngelson</b>'}}<br/>
- {% if publi.journal %}Under review at <i>{{ publi.journal }}</i>,{% endif %} {% if publi.arxiv %} arXiv {{ publi.arxiv }}{% endif %}<br/>
+ {{ publi.authors | replace_first: 'Tobias Wenzel', '<b>Tobias Wenzel</b>'}}<br/>
+ {% if publi.journal %}<i>{{ publi.journal }}</i>,{% endif %} {% if publi.arxiv %} arXiv {{ publi.arxiv }}{% endif %}<br/>
  {% if publi.url %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.url }}.pdf" target="_blank"><button type="button" class="btn btn-success btn-sm">PDF</button></a>{% endif %}
  {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn btn-sm btn-primary">ARXIV</button></a> {% endif %}
  {% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.url}}2" class="btn btn-sm btn-warning" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
