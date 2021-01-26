@@ -1,6 +1,6 @@
 # Wenzel Lab website
 
-This is a statically-generated Jekyll/Liquid/Bootstrap-based website based on the template created by the [Allan lab](https://www.allanlab.org/) and modified it into a personal academic webpage that met my requirements.
+This is a statically-generated Jekyll website based on the template created by the [Allan lab](https://www.allanlab.org/) and modified it into a personal academic webpage that met my requirements.
 Feel free to reuse it.
 
 ### Other Templates
